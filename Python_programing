@@ -1,0 +1,5 @@
+n=int(input("Enter the nos.:"))
+product=1
+for i in range(2,n*2+1,2):
+    product=product*i
+print(" product of first",n,"even natural nos.",product)  
